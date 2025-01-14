@@ -12,7 +12,7 @@
 condition? value1 : value2
 
 let age=5;
-let status1 =(age>18) ? 'I can vote' :'I cannot vote';
+let status1 = (age>18) ? 'I can vote' :'I cannot vote';
 console.log(status1);
 
 //4.Logical Operators:
@@ -29,3 +29,11 @@ console.log(status1);
 //(false|| true|| false||true||false) ..after one true it does not needs to check further.
 
 //5.Bitwise-Operators:
+//AND: &
+//OR: |
+//NOT: ~
+//<< : left shift (gets multiplied by 2)
+//>> : right shift
+//XOR: ^ (same them 0)
+
+//MSB(Most significant bit) of a negative number is 1.
