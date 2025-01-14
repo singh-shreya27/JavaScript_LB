@@ -37,3 +37,7 @@ console.log(status1);
 //XOR: ^ (same them 0)
 
 //MSB(Most significant bit) of a negative number is 1.
+
+//CONDITIONALS:
+//if-else
+//switch
