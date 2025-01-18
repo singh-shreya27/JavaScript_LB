@@ -54,7 +54,25 @@ function solve(number){
         return number*number;
     }
 }
+
 let ans=solve(5);
 let finalAns= ans(10);
 console.log(finalAns);
 
+                       //Variable scoping:
+//1.Global scoping. (created using any key word will work everywhere)
+//2.Function scoping.
+//3.Block scoping.
+
+function sayHello(){
+    var name="Earth";
+    console.log("Hello ",name);
+}
+
+sayHello();
+
+//Temporal dead zone:
+console.log(marks);
+console.log("shreya");     //this se temporal dead zone because let/const keyword is being used for hoisting.
+console.log("singh");
+let marks=100;
